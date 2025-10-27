@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 
+    告诉 IE 浏览器“用可用的最高版本的渲染引擎（Edge 模式）来渲染这个页面”，不要降级到兼容模式（比如 IE7/IE8 模式）。
+    影响：能避免 IE 在企业环境或兼容视图下用旧内核渲染，减少样式/脚本兼容问题。
+    现状：现代浏览器会忽略它；如果不需要兼容老 IE（IE11 及更早），可以不加。 
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>vue-webpack-calculator</title>
+  </head>
+  <body>
+    <div id="calculator"></div>
+    <!-- 脚本由 HtmlWebpackPlugin 自动注入，不需要手动引入 -->
+    <!-- <script src="/dist/build.js"></script> -->
+  </body>
+</html>
